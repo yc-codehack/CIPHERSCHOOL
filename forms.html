@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+</head>
+<body>
+    <h1>Sports Paradice</h1>
+    <h2>Please enter the details</h2>
+    <!-- Form attributes - method & action -->
+    <form action="./website/sports_blog/">
+        
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" placeholder="Name" required>
+        <br><br>
+
+        <label for="username">Enter username:</label>
+        <input type="text" id="username" placeholder="Username" required>
+        <br><br>
+        
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" placeholder="email" required>
+        <br><br>
+        
+        <label for="password">Enetr your password:</label>
+        <input type="password" id="password" placeholder="password" required>
+        <br><br>
+        
+        <label for="confirm_passw">Reenter your Password</label>
+        <input type="password" id="confirm_passw" placeholder="password" required>
+        <br><br>
+        
+        <label for="phone_no">Enter Mobile No.</label>
+        <input type="number" id="phone_no" placeholder="10 digit Mobile No." required>
+        <br><br>
+
+        <label for="dob">Enter date of birth</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+        
+        <p>Choose your gender</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male" >Male</label>
+        <br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female" >Female</label>
+        <br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other" >Other</label>
+        <br>
+        <input type="radio" id="NA" name="gender" value="NA">
+        <label for="NA" >Choose not to tell</label>
+        <br><br>
+
+
+        <!-- <p>Select your age group.</p>
+        <input type="radio" id="age" name="age" value="0-18">
+        <label for="age">0-18</label>
+        <br><br>
+        <input type="radio" id="age" name="age" value="19-30">
+        <label for="age">19-30</label>  
+        <input type="radio" id="age" name="age" value="31+">
+        <label for="age">31+</label>-->
+
+        <label>Security Questions:</label>
+        <select>
+            <option value="answer1">What is your first pet name</option>
+            <option value="answer2">What is your hometown</option>
+            <option value="answer3">What is your first school name</option>
+        </select>
+        <br><br>
+        <label for="answer">Answer Field</label>
+        <br>
+        <textarea id="answer" rows="5" cols="30" placeholder="Enetr your answer..." required></textarea>
+        <br><br>
+
+        <br>
+        <input type="submit" value="Submit" >
+    </form>
+</body>
+</html>
