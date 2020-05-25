@@ -3,53 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
     <title>Football</title>
 </head>
 <body>
     
     <!--This section contain headlines-->
     <header id="head">
-        <center>
-            <h1>Football Blog</h1>
-            <h2>Welcome to the football section</h2>    
-        </center>
+        <div id="logo">
+            <h3>
+                <a href="./index.html" target="_self">Sports Paradice</a>
+            </h3>
+        </div>       
+        <!-- This section contain links-->
+        <nav id="main-nav">
+            <ul class="main-nav-links">
+                <li>
+                    <a href="./index.html" target="_self" class="main-link">Home</a>
+                </li>
+                <li>
+                    <a href="#contact" target="_self" class="main-link">Contact</a>
+                </li>
+                <li>
+                    <a href="./forms.html" target="_self" class="main-link">Signup</a>
+                </li>
+                <li>
+                    <a href="#subscribe" target="_self" class="main-link">Subscribe</a>
+                </li>
+                <l1>
+                    <a href="https://www.google.com" target="_blank" class="main-link">Known More</a>
+                </l1>
+            </ul>     
+        </nav>
     </header>
 
-    <!--Important links-->
-    <hr>
-    <nav style="padding-top: 1%;">
-        <center>
-            <a href="./forms.html" target="_self">Signup</a>
-            &nbsp;
-            <a href="./index.html">Main page</a>
-            &nbsp;
-            <a href="./contact.html">Contact Us</a>
-            &nbsp;
-            <a href="./subscription/subcribe.html">Subscribe Here</a>
-            &nbsp;
-            <a href="https://wwww.google.com">More info</a>
-            <br>
-            <br>
-            <hr>
-        </center>
-    </nav>
+    
 
     <!--Banner section-->
     <div id="banner">
-        <img src="./images/football/football_banner_1.jpg" alt="football background" width="100%">
+        <div id="banner-img">
+            <img src="./images/football/football_banner_2.jpg" alt="Football banner" width=100%>
+        </div>
+        <div id="intro">
+            <b>I LEARNT ALL<b><br>
+            <b>ABOUT LIFE<b><br>
+            <b>WITH A BALL<b><br>
+            <b>AT MY FEET<b><br>
+        </div>    
+    </div>
+
+    <div id="block">
+
     </div>
 
     <!-- Blog Section-->
     <main>
-        <center>
-            <h2>Here are some of our best blogs</h2>
-        </center> 
+        <h2>Here are some of our best blogs</h2>
         <!--Ordered list-->
         <ol>
             <li>
                 <div class="blog-content">
-                    <h3><a href="https://www.skysports.com/football/news/11661/11991390/liverpool-and-manchester-united-resume-group-training-for-premier-league-restart" target="_blank">Liverpool and Manchester United resume group training for Premier League restart</a></h3>
-                    <div class="football-img">
+                    <h3><a href="https://www.skysports.com/football/news/11661/11991390/liverpool-and-manchester-united-resume-group-training-for-premier-league-restart" target="_blank" class="blog-link">Liverpool and Manchester United resume group training for Premier League restart</a></h3>
+                    <div class="blog-img">
                         <img src="./images/football/football_blog_1.jpg" alt="liverpool" width="25%" Align="left">
                     </div>
                     <p style="padding-left: 30%;"> Liverpool and Manchester United resumed group training on Wednesday as the Premier League moves a step closer to a return.
@@ -61,9 +76,9 @@
                 </div>
             </li>
             <li>
-                <div class="blog-content" style="padding-top: 5%;">
-                    <h3><a href="https://www.skysports.com/football/news/11860/11991583/inter-milan-target-signing-edinson-cavani-on-free-transfer" target="_blank">Inter Milan target signing Edinson Cavani on free transfer</a></h3>
-                    <div class="football-img">
+                <div class="blog-content">
+                    <h3><a href="https://www.skysports.com/football/news/11860/11991583/inter-milan-target-signing-edinson-cavani-on-free-transfer" target="_blank" class="blog-link">Inter Milan target signing Edinson Cavani on free transfer</a></h3>
+                    <div class="blog-img">
                         <img src="./images/football/football_blog_2.jpg" alt="Edinson Cavani" width="25%" Align="left">
                     </div>
                     <p style="padding-left: 30%;"> Inter Milan want to sign Edinson Cavani on a free transfer this summer as they prepare for the potential departure of Lautaro Martinez to Barcelona, according to Sky in Italy.
@@ -75,9 +90,9 @@
                 </div>
             </li>
             <li>
-                <div class="blog-content" style="padding-top: 5%;">
-                    <h3><a href="https://www.skysports.com/football/news/11787/11991511/john-hartson-says-celtics-ninth-straight-title-untainted-by-early-season-finish" target="_blank">John Hartson says Celtic's ninth straight title untainted by early season finish</a></h3>
-                    <div class="football-img">
+                <div class="blog-content">
+                    <h3><a href="https://www.skysports.com/football/news/11787/11991511/john-hartson-says-celtics-ninth-straight-title-untainted-by-early-season-finish" target="_blank" class="blog-link">John Hartson says Celtic's ninth straight title untainted by early season finish</a></h3>
+                    <div class="blog-img">
                         <img src="./images/football/football_blog_3.jpg" alt="John Harton" width="25%" Align="left">
                     </div>
                     <p style="padding-left: 30%;"> Celtic's achievement in winning a ninth straight title should lose no credit because of the season's early end, ex-striker John Harton told The Football Show.
@@ -89,9 +104,9 @@
                 </div>
             </li>
             <li>
-                <div class="blog-content" style="padding-top: 5%;">
-                    <h3><a href="https://www.skysports.com/football/news/11675/11958309/tottenham-transfer-news-and-rumours" target="_blank">Tottenham transfer news and rumours</a></h3>
-                    <div class="football-img">
+                <div class="blog-content">
+                    <h3><a href="https://www.skysports.com/football/news/11675/11958309/tottenham-transfer-news-and-rumours" target="_blank" class="blog-link">Tottenham transfer news and rumours</a></h3>
+                    <div class="blog-img">
                         <img src="./images/football/football_blog_4.jpg" alt="Tottenham" width="25%" Align="left">
                     </div>
                     <p style="padding-left: 30%;"> The latest players linked with a move to Tottenham...
@@ -103,9 +118,9 @@
                 </div>
             </li>
             <li>
-                <div class="blog-content" style="padding-top: 5%;">
-                    <h3><a href="https://www.skysports.com/football/news/12038/11988754/stade-de-france-martin-tyler-shares-his-memories-of-commentating-in-france" target="_blank">Stade de France: Martin Tyler shares his memories of commentating in France</a></h3>
-                    <div class="football-img">
+                <div class="blog-content">
+                    <h3><a href="https://www.skysports.com/football/news/12038/11988754/stade-de-france-martin-tyler-shares-his-memories-of-commentating-in-france" target="_blank" class="blog-link">Stade de France: Martin Tyler shares his memories of commentating in France</a></h3>
+                    <div class="blog-img">
                         <img src="./images/football/football_blog_5.jpg" alt="John Harton" width="25%" Align="left">
                     </div>
                     <p style="padding-left: 30%;"> At a time when football grounds have closed their doors, we have asked Martin Tyler to share some of his favourite facts and memories of the homes of clubs around the world.
@@ -118,9 +133,37 @@
             </li>
         </ol>
     </main>
-    <footer style="padding-top: 10%; text-align: center;">
-        <b><a href="#head">Go at top</a><b>
+    
+    <hr style="margin: 50px;">
+
+    <footer>
+        <div id="about">
+            <h2>Overview</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nostrum quia vero, ab perspiciatis dicta culpa error cumque nemo, totam mollitia? Atque laudantium reiciendis repellendus, ratione molestias amet. Fuga, quia!
+            </p>
+        </div>
+
+        <div id="contact">
+            <h2>Connect with me</h2>
+            <p>yc-codehack</p>
+            <p>phone: +91 7XXXXXXXX9</p>
+            <p>email: learnnewthighs@gmail.com</p>
+        </div>
+        
+
+        <div id="subscribe">
+            <h2>Subscribe</h2>
+            <p>Get the daily newsletter from Sports Paradice expert team about the latest news in the sports!</p>
+            <form id="sub-form">
+                <input type="text" id="sub-fname" name="sub-fname" placeholder="First Name" required>
+                <input type="text" id="sub-lname" name="sub-lname" placeholder="Last Name" required>
+                <input type="email" id="sub-email" name="sub-email" placeholder="Email" required>
+                <input type="submit" id="sub-submit" name="sub-submit" value="Subscribe">
+            </form>
+        </div>
     </footer>
+
 
 
 </body>

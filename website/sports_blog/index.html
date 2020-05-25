@@ -4,77 +4,136 @@
     <head>
         <meta charset="UTF-8"> <!-- UTF-8 is a human readable standard-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./CSS/style.css">
         <title>Sports</title>
     </head>
     
     <body>
         <!--This section contain text-->
-        <header style="text-align: center;">
-            <h1>Sports Paradice</h1>
-            <h2>Welcome to our website</h2>
-            <p>This is the best <span>website for sports blog!!!</span></p>
+        <header id="head">
+            <div id="logo">
+                <h3>
+                    <!-- AAA -->
+                    <a href="./index.html" target="_self">Sports Paradice</a>
+                </h3>
+            </div>       
+            <!-- This section contain links-->
+            <nav id="main-nav">
+                <ul class="main-nav-links">
+                    <li>
+                        <a href="./index.html" target="_self" class="main-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#contact" target="_self" class="main-link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="./forms.html" target="_self" class="main-link">Signup</a>
+                    </li>
+                    <li>
+                        <a href="#subscribe" target="_self" class="main-link">Subscribe</a>
+                    </li>
+                    <l1>
+                        <a href="https://www.google.com" target="_blank" class="main-link">Known More</a>
+                    </l1>
+                </ul>     
+            </nav>
         </header>
         
-        <!-- This section contain links-->
-        <hr>
-        <nav style="text-align: center; padding-top: 2%;"> 
-            <a href="./forms.html" target="_self">Signup</a>
-            &nbsp;
-            <a href="./contact.html" target="_self">Contact Us</a>
-            &nbsp;
-            <a href="./subscription/subcribe.html" target="_self">Subscribe Here</a>
-            &nbsp;
-            <a href="https://www.google.com" target="_blank">Click Here to known more</a>
-            <br><br>
-            <hr>
-        </nav>
-        
         <div id="banner">
-            <img src="./images/index/sports_background.jpg" alt="Sprts banner" width=100%>
+            <div id="banner-img">
+                <img src="./images/index/sports_banner_1.jpg" alt="Sprts banner" width=100%>
+            </div>
+            <div id="intro">
+                <h2>Welcome to sports corner</h2>
+                <em>Get all the latest sports info!!!</em>
+            </div>    
         </div>
 
+        <nav id="sec-nav">
+            <a href="./football_bolg.html" target="_self" class="sec-link">
+                <div class="sec-nav-links">
+                    Football
+                </div>
+            </a>
+            <a   href="./cricket_blog.html" target="_self" class="sec-link">
+                <div class="sec-nav-links">
+                    Cricket
+                </div>
+            </a>
+            <a href="./basketball_blog.html" target="_self" class="sec-link">
+                <div class="sec-nav-links" style="border: none;">
+                    Basketball
+                </div>
+            </a>
+        </nav>
+
+
         <!-- Blogs Section-->
+
         <main>
-            <h2 style="text-align:center;"> Here are the some of our best blogs </h2>
+            <h2> Here are the some of our best blogs </h2>
             <!-- Ordered list-->
             <ol>
                 <li>
-                    <div class="blog-content football">
-                    <h3>Should liverpool deverse EPL title!!</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reprehenderit ducimus voluptas culpa consequatur, iure pariatur vero, quas exercitationem repudiandae delectus reiciendis rem perspiciatis quo at accusamus nemo repellendus nulla! 
-                        <strong><a href="./football_bolg.html" target="_self">Go to Football Blog...</a></strong>
-                    </p>
+                    <div class="blog-content-football">
+                        <h3>Should liverpool deverse EPL title!!</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reprehenderit ducimus voluptas culpa consequatur, iure pariatur vero, quas exercitationem repudiandae delectus reiciendis rem perspiciatis quo at accusamus nemo repellendus nulla! 
+                            <br>
+                            <!-- <a href="./football_bolg.html" target="_self">Go to Football Blog...</a> -->
+                        </p>
                     </div>
                 </li>
 
                 <li>
                     <div class="blog-content COVID-19">
-                    <h3>How COVID-19 affected IPL 2020!!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
-                        <strong><a href="./cricket_blog.html" target="_self">Go to Cricket Blog...</a></strong>
-                    </p>
+                        <h3>How COVID-19 affected IPL 2020!!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
+                            <br>
+                            <!-- <a href="./cricket_blog.html" target="_self">Go to Cricket Blog...</a> -->
+                        </p>
                     </div>
                 </li>
 
                 <li>
                     <div class="blog-content basketball">
-                    <h3>Would have LeBron James won NBA MVP!!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
-                        <strong><a href="./basketball_blog.html" target="_self">Go to Basketball Blog...</a></strong>
-                    </p>
+                        <h3>Would have LeBron James won NBA MVP!!</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
+                            <br>
+                            <!-- <a href="./basketball_blog.html" target="_self">Go to Basketball Blog...</a> -->
+                        </p>
                     </div>
                 </li>
             </ol>
         </main>
 
-        <section id="about" style="padding-top: 5%;"> 
-            <h2 style="text-align: center;">About Us</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias cum in tempore quae eos tenetur impedit deleniti laboriosam, necessitatibus itaque! Accusantium repudiandae ab accusamus repellat praesentium quo est nobis iusto.</p>
-        </section>
+        <hr style="margin: 50px;"> 
 
-        <!-- Block tag & inline tag-->
-        <footer style="text-align: center; padding-top: 5%;">
-            <b><a href="#banner">Go to banner</a></b>
+        <footer>
+            <div id="about">
+                <h2>Overview</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nostrum quia vero, ab perspiciatis dicta culpa error cumque nemo, totam mollitia? Atque laudantium reiciendis repellendus, ratione molestias amet. Fuga, quia!
+                </p>
+            </div>
+
+            <div id="contact">
+                <h2>Connect with me</h2>
+                <p>yc-codehack</p>
+                <p>phone: +91 7XXXXXXXX9</p>
+                <p>email: learnnewthighs@gmail.com</p>
+            </div>
+            
+
+            <div id="subscribe">
+                <h2>Subscribe</h2>
+                <p>Get the daily newsletter from Sports Paradice expert team about the latest news in the sports!</p>
+                <form id="sub-form">
+                    <input type="text" id="sub-fname" name="sub-fname" placeholder="First Name" required>
+                    <input type="text" id="sub-lname" name="sub-lname" placeholder="Last Name" required>
+                    <input type="email" id="sub-email" name="sub-email" placeholder="Email" required>
+                    <input type="submit" id="sub-submit" name="sub-submit" value="Subscribe">
+                </form>
+            </div>
         </footer>
 
     </body>
