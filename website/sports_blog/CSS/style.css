@@ -187,7 +187,6 @@ footer{
     /* margin: 20px; */
     text-align: justify;
     padding-top: 30px;
-    pad
 
 }
 
@@ -290,6 +289,7 @@ footer{
     height: 140px;
     width: 50%;
     font-size: 25px; 
+    color: white;
 }
 
 #signup-form{

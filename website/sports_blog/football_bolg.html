@@ -3,47 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/style1.css">
     <title>Football</title>
 </head>
 <body>
     
     <!--This section contain headlines-->
-    <header id="head">
-        <div id="logo">
-            <h3>
-                <a href="./index.html" target="_self">Sports Paradice</a>
-            </h3>
-        </div>       
-        <!-- This section contain links-->
-        <nav id="main-nav">
-            <ul class="main-nav-links">
-                <li>
-                    <a href="./index.html" target="_self" class="main-link">Home</a>
-                </li>
-                <li>
-                    <a href="#contact" target="_self" class="main-link">Contact</a>
-                </li>
-                <li>
-                    <a href="./forms.html" target="_self" class="main-link">Signup</a>
-                </li>
-                <li>
-                    <a href="#subscribe" target="_self" class="main-link">Subscribe</a>
-                </li>
-                <l1>
-                    <a href="https://www.google.com" target="_blank" class="main-link">Known More</a>
-                </l1>
-            </ul>     
-        </nav>
+    <header>
+        <nav>
+            <div id="logo">
+                <h3>
+                    <a href="./index.html" target="_self">Sports Paradice</a>
+                </h3>
+            </div>       
+        
+            <!-- This section contain links-->
+        
+            <div id="nav-links">
+                <ul id="main-nav-links">
+                    <li>
+                        <a href="./index.html" target="_self" class="main-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#contact" target="_self" class="main-link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="./forms.html" target="_self" class="main-link">Signup</a>
+                    </li>
+                    <li>
+                        <a href="#subscribe" target="_self" class="main-link">Subscribe</a>
+                    </li>
+                    <l1>
+                        <a href="https://www.google.com" target="_blank" class="main-link">Known More</a>
+                    </l1>
+                </ul>                   
+            </div>    
+        </nav=>
     </header>
 
     
 
     <!--Banner section-->
-    <div id="banner">
-        <div id="banner-img">
-            <img src="./images/football/football_banner_2.jpg" alt="Football banner" width=100%>
-        </div>
+    <div id="banner-football">
         <div id="intro">
             <b>I LEARNT ALL<b><br>
             <b>ABOUT LIFE<b><br>
@@ -52,22 +53,37 @@
         </div>    
     </div>
 
-    <div id="block">
-
+    <div id="sec-nav">
+        <a href="./football_bolg.html" target="_self" class="sec-link">
+            <div class="sec-nav-links">
+                Football
+            </div>
+        </a>
+        <a   href="./cricket_blog.html" target="_self" class="sec-link">
+            <div class="sec-nav-links">
+                Cricket
+            </div>
+        </a>
+        <a href="./basketball_blog.html" target="_self" class="sec-link">
+            <div class="sec-nav-links" style="border: none;">
+                Basketball
+            </div>
+        </a>
     </div>
 
     <!-- Blog Section-->
-    <main>
-        <h2>Here are some of our best blogs</h2>
+    <h2 id="main-heading">Here are some of our best blogs</h2>
+   
+    <main>     
         <!--Ordered list-->
         <ol>
-            <li>
-                <div class="blog-content">
+            <li id="blog-content-football-1">
+                <div class="blog-text">
                     <h3><a href="https://www.skysports.com/football/news/11661/11991390/liverpool-and-manchester-united-resume-group-training-for-premier-league-restart" target="_blank" class="blog-link">Liverpool and Manchester United resume group training for Premier League restart</a></h3>
-                    <div class="blog-img">
+                    <!-- <div class="blog-img">
                         <img src="./images/football/football_blog_1.jpg" alt="liverpool" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> Liverpool and Manchester United resumed group training on Wednesday as the Premier League moves a step closer to a return.
+                    </div> -->
+                    <p> Liverpool and Manchester United resumed group training on Wednesday as the Premier League moves a step closer to a return.
                         <br>
                         Premier League clubs were given the green light to begin 'phase one' training in small groups on Tuesday after testing revealed only six positive cases of coronavirus from 748 tests carried out on players and non-playing staff.
                         <br>
@@ -75,13 +91,13 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="blog-content">
+            <li id="blog-content-football-2">
+                <div class="blog-text">
                     <h3><a href="https://www.skysports.com/football/news/11860/11991583/inter-milan-target-signing-edinson-cavani-on-free-transfer" target="_blank" class="blog-link">Inter Milan target signing Edinson Cavani on free transfer</a></h3>
-                    <div class="blog-img">
+                    <!-- <div class="blog-img">
                         <img src="./images/football/football_blog_2.jpg" alt="Edinson Cavani" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> Inter Milan want to sign Edinson Cavani on a free transfer this summer as they prepare for the potential departure of Lautaro Martinez to Barcelona, according to Sky in Italy.
+                    </div> -->
+                    <p> Inter Milan want to sign Edinson Cavani on a free transfer this summer as they prepare for the potential departure of Lautaro Martinez to Barcelona, according to Sky in Italy.
                         <br>
                         Cavani is out of contract at Paris Saint-Germain this summer - so is free to speak to other clubs - and he has also been a target for Atletico Madrid since January, as well as clubs in the Premier League.
                         <br>
@@ -89,13 +105,13 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="blog-content">
+            <li id="blog-content-football-3">
+                <div class="blog-text">
                     <h3><a href="https://www.skysports.com/football/news/11787/11991511/john-hartson-says-celtics-ninth-straight-title-untainted-by-early-season-finish" target="_blank" class="blog-link">John Hartson says Celtic's ninth straight title untainted by early season finish</a></h3>
-                    <div class="blog-img">
+                    <!-- <div class="blog-img">
                         <img src="./images/football/football_blog_3.jpg" alt="John Harton" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> Celtic's achievement in winning a ninth straight title should lose no credit because of the season's early end, ex-striker John Harton told The Football Show.
+                    </div> -->
+                    <p> Celtic's achievement in winning a ninth straight title should lose no credit because of the season's early end, ex-striker John Harton told The Football Show.
                         <br>
                         Hartson, who played 146 times for the Bhoys and scored 88 goals, paid tribute to the club's "wonderful achievement" in lifting a joint-record ninth consecutive top-flight league title.
                         <br>
@@ -103,13 +119,13 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="blog-content">
+            <li id="blog-content-football-4">
+                <div class="blog-text">
                     <h3><a href="https://www.skysports.com/football/news/11675/11958309/tottenham-transfer-news-and-rumours" target="_blank" class="blog-link">Tottenham transfer news and rumours</a></h3>
-                    <div class="blog-img">
+                    <!-- <div class="blog-img">
                         <img src="./images/football/football_blog_4.jpg" alt="Tottenham" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> The latest players linked with a move to Tottenham...
+                    </div> -->
+                    <p> The latest players linked with a move to Tottenham...
                         <br>
                         <b>Pierre-Emile Hojbjerg -</b> Spurs are expected to revive their interest in the Southampton captain when the window re-opens 
                         <br>
@@ -117,13 +133,13 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="blog-content">
+            <li id="blog-content-football-5">
+                <div class="blog-text">
                     <h3><a href="https://www.skysports.com/football/news/12038/11988754/stade-de-france-martin-tyler-shares-his-memories-of-commentating-in-france" target="_blank" class="blog-link">Stade de France: Martin Tyler shares his memories of commentating in France</a></h3>
-                    <div class="blog-img">
+                    <!-- <div class="blog-img">
                         <img src="./images/football/football_blog_5.jpg" alt="John Harton" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> At a time when football grounds have closed their doors, we have asked Martin Tyler to share some of his favourite facts and memories of the homes of clubs around the world.
+                    </div> -->
+                    <p> At a time when football grounds have closed their doors, we have asked Martin Tyler to share some of his favourite facts and memories of the homes of clubs around the world.
                         <br>
                         This week, Sky Sports' Voice of Football is looking at some grounds across Europe. Today, he takes us on a trip to the Stade de France in Paris...
                         <br>
@@ -164,7 +180,10 @@
         </div>
     </footer>
 
-
+    <hr style="margin: 50px;">
+    <div id="logo-end">
+        Sports Paradice
+    </div>
 
 </body>
 </html>

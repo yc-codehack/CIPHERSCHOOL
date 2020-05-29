@@ -4,52 +4,52 @@
     <head>
         <meta charset="UTF-8"> <!-- UTF-8 is a human readable standard-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+        <link rel="stylesheet" type="text/css" href="./CSS/style1.css">
         <title>Sports</title>
     </head>
     
     <body>
         <!--This section contain text-->
-        <header id="head">
-            <div id="logo">
-                <h3>
-                    <!-- AAA -->
-                    <a href="./index.html" target="_self">Sports Paradice</a>
-                </h3>
-            </div>       
-            <!-- This section contain links-->
-            <nav id="main-nav">
-                <ul class="main-nav-links">
-                    <li>
-                        <a href="./index.html" target="_self" class="main-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="#contact" target="_self" class="main-link">Contact</a>
-                    </li>
-                    <li>
-                        <a href="./forms.html" target="_self" class="main-link">Signup</a>
-                    </li>
-                    <li>
-                        <a href="#subscribe" target="_self" class="main-link">Subscribe</a>
-                    </li>
-                    <l1>
-                        <a href="https://www.google.com" target="_blank" class="main-link">Known More</a>
-                    </l1>
-                </ul>     
-            </nav>
+        <header>
+            <nav>
+                <div id="logo">
+                    <h3>
+                        <a href="./index.html" target="_self">Sports Paradice</a>
+                    </h3>
+                </div>       
+            
+                <!-- This section contain links-->
+            
+                <div id="nav-links">
+                    <ul id="main-nav-links">
+                        <li>
+                            <a href="./index.html" target="_self" class="main-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#contact" target="_self" class="main-link">Contact</a>
+                        </li>
+                        <li>
+                            <a href="./forms.html" target="_self" class="main-link">Signup</a>
+                        </li>
+                        <li>
+                            <a href="#subscribe" target="_self" class="main-link">Subscribe</a>
+                        </li>
+                        <l1>
+                            <a href="https://www.google.com" target="_blank" class="main-link">Known More</a>
+                        </l1>
+                    </ul>                   
+                </div>    
+            </nav=>
         </header>
         
         <div id="banner">
-            <div id="banner-img">
-                <img src="./images/index/sports_banner_1.jpg" alt="Sprts banner" width=100%>
-            </div>
             <div id="intro">
                 <h2>Welcome to sports corner</h2>
                 <em>Get all the latest sports info!!!</em>
             </div>    
         </div>
 
-        <nav id="sec-nav">
+        <div id="sec-nav">
             <a href="./football_bolg.html" target="_self" class="sec-link">
                 <div class="sec-nav-links">
                     Football
@@ -65,18 +65,20 @@
                     Basketball
                 </div>
             </a>
-        </nav>
+        </div>
 
 
         <!-- Blogs Section-->
+        <h2 id="main-heading"> Here are the some of our best blogs </h2>
 
         <main>
-            <h2> Here are the some of our best blogs </h2>
             <!-- Ordered list-->
             <ol>
-                <li>
-                    <div class="blog-content-football">
-                        <h3>Should liverpool deverse EPL title!!</h3>
+                <li  id="blog-content-football">
+                    <div class="blog-text">
+                        <a href="https://www.outlookindia.com/website/story/sports-news-coronavirus-liverpool-deserve-epl-title-but-no-relegation-if-season-isnt-finished-brighton-owner/351031" target="_blank">
+                        <h3>Liverpool Deserve EPL Title, But No Relegation If Season Isn't Finished</h3>
+                        </a>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut reprehenderit ducimus voluptas culpa consequatur, iure pariatur vero, quas exercitationem repudiandae delectus reiciendis rem perspiciatis quo at accusamus nemo repellendus nulla! 
                             <br>
                             <!-- <a href="./football_bolg.html" target="_self">Go to Football Blog...</a> -->
@@ -84,9 +86,11 @@
                     </div>
                 </li>
 
-                <li>
-                    <div class="blog-content COVID-19">
-                        <h3>How COVID-19 affected IPL 2020!!</h3>
+                <li id="blog-content-cricket">
+                    <div class="blog-text">
+                        <a href="https://www.espncricinfo.com/story/_/id/29232998/india-test-snub-broken-promise,-says-waca-chief-executive-christina-matthews" target="_blank">
+                        <h3>India Test snub a 'kick in the guts' for us - WACA chairman</h3>
+                        </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
                             <br>
                             <!-- <a href="./cricket_blog.html" target="_self">Go to Cricket Blog...</a> -->
@@ -94,11 +98,13 @@
                     </div>
                 </li>
 
-                <li>
-                    <div class="blog-content basketball">
-                        <h3>Would have LeBron James won NBA MVP!!</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
-                            <br>
+                <li id="blog-content-basketball">
+                    <div class="blog-text">
+                        <a href="https://www.nytimes.com/2020/05/27/sports/basketball/basketball-hall-of-fame-kobe-bryant-delay-coronavirus.html" target="_blank">
+                        <h3>Basketball Hall of Fame Event Will Be Pushed to 2021, Colangelo Says</h3>
+                        </a>
+                        <p>The Naismith Basketball Hall of Fame induction for an exceptionally illustrious class, including the late Kobe Bryant, will be postponed from August to next spring because of the coronavirus pandemic, Jerry Colangelo, the chairman of the Hall of Fame’s board of governors, said Wednesday.</p>
+                        <br>
                             <!-- <a href="./basketball_blog.html" target="_self">Go to Basketball Blog...</a> -->
                         </p>
                     </div>
@@ -135,6 +141,12 @@
                 </form>
             </div>
         </footer>
+        
+        <hr style="margin: 50px;">
+        <div id="logo-end">
+            Sports Paradice
+        </div>
+
 
     </body>
 </html>

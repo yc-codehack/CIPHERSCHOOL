@@ -3,45 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/style1.css">
     <title>Basketball</title>
 </head>
 <body>
     
     <!--This section contain headlines-->
     <header id="head">
-        <div id="logo">
-            <h3>
-                <a href="./index.html" target="_self">Sports Paradice</a>
-            </h3>
-        </div>       
-        <!-- This section contain links-->
-        <nav id="main-nav">
-            <ul class="main-nav-links">
-                <li>
-                    <a href="./index.html" target="_self" class="main-link">Home</a>
-                </li>
-                <li>
-                    <a href="#contact" target="_self" class="main-link">Contact</a>
-                </li>
-                <li>
-                    <a href="./forms.html" target="_self" class="main-link">Signup</a>
-                </li>
-                <li>
-                    <a href="#subscribe" target="_self" class="main-link">Subscribe</a>
-                </li>
-                <l1>
-                    <a href="https://www.google.com" target="_blank" class="main-link">Known More</a>
-                </l1>
-            </ul>     
-        </nav>
+        <nav>
+            <div id="logo">
+                <h3>
+                    <a href="./index.html" target="_self">Sports Paradice</a>
+                </h3>
+            </div>       
+        
+            <!-- This section contain links-->
+        
+            <div id="nav-links">
+                <ul id="main-nav-links">
+                    <li>
+                        <a href="./index.html" target="_self" class="main-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#contact" target="_self" class="main-link">Contact</a>
+                    </li>
+                    <li>
+                        <a href="./forms.html" target="_self" class="main-link">Signup</a>
+                    </li>
+                    <li>
+                        <a href="#subscribe" target="_self" class="main-link">Subscribe</a>
+                    </li>
+                    <l1>
+                        <a href="https://www.google.com" target="_blank" class="main-link">Known More</a>
+                    </l1>
+                </ul>                   
+            </div>    
+        </nav=>
     </header>
     
+    
     <!--Banner section-->
-    <div id="banner">
-        <div id="banner-img">
-            <img src="./images/basketball/basketball_banner_2.jpg" alt="BAsketball banner" width=100%>
-        </div>
+    <div id="banner-basketball">
         <div id="intro">
             <b>some people<b>
             <b>want it<b>
@@ -55,22 +57,38 @@
         </div>    
     </div>
 
-    <div id="block">
-
+    <div id="sec-nav">
+        <a href="./football_bolg.html" target="_self" class="sec-link">
+            <div class="sec-nav-links">
+                Football
+            </div>
+        </a>
+        <a   href="./cricket_blog.html" target="_self" class="sec-link">
+            <div class="sec-nav-links">
+                Cricket
+            </div>
+        </a>
+        <a href="./basketball_blog.html" target="_self" class="sec-link">
+            <div class="sec-nav-links" style="border: none;">
+                Basketball
+            </div>
+        </a>
     </div>
 
     <!-- Blog Section-->
-    <main>
+    <div id="main-heading">
         <h2>Here are some of our best blogs</h2>
+        
+    </div>
+ 
+    
+    <main>
         <!--Ordered list-->
         <ol>
-            <li>
-                <div class="blog-content">
+            <li id="blog-content-basketball-1">
+                <div class="blog-text">
                     <h3><a href="https://www.nytimes.com/2020/05/16/business/michael-jordan-last-dance-toxic-worker.html" target="_blank" class="blog-link">Michael Jordan: N.B.A. Champ, Marketing Legend and … Toxic Worker?</a></h3>
-                    <div class="basketball-img">
-                        <img src="./images/basketball/basketball_blog_1.jpg" alt="Michael jordan" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> He showed little mercy when berating co-workers.He seized on their setbacks and scoffed at their maladies. He punched at least two in the head.
+                    <p> He showed little mercy when berating co-workers.He seized on their setbacks and scoffed at their maladies. He punched at least two in the head.
                         <br>
                         The office etiquette in question did not belong to a swashbuckling bond trader or adrenaline- addled bouncer. It belonged to Michael Jordan, a six-time National Basketball Association champion and pop-culture icon widely regarded as the game’s best player ever.
                         <br>
@@ -82,13 +100,10 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="blog-content" style="padding-top: 1%;">
+            <li id="blog-content-basketball-2">
+                <div class="blog-text">
                     <h3><a href="https://www.straitstimes.com/sport/basketball/nba-moves-closer-to-restart-some-players-on-edge" target="_blank" class="blog-link">NBA moves closer to restart, some players on edge</a></h3>
-                    <div class="basketball-img">
-                        <img src="./images/basketball/basketball_blog_2.jpg" alt="Dewayne Dedmon" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> <b>LOS ANGELES •</b> Following a Board of Governors call with commissioner Adam Silver on Tuesday, the National Basketball Association (NBA) is "increasingly positive about the league's momentum" toward resuming the 2019-20 season, ESPN reported.
+                    <p> <b>LOS ANGELES •</b> Following a Board of Governors call with commissioner Adam Silver on Tuesday, the National Basketball Association (NBA) is "increasingly positive about the league's momentum" toward resuming the 2019-20 season, ESPN reported.
                         <br>
                         Owners and executives were said to be encouraged about the league's steps toward returning safely amid the coronavirus pandemic and that talks with the National Basketball Players Association (NBPA) went well.
                         <br>
@@ -96,13 +111,10 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="blog-content" style="padding-top: 5%;">
-                    <h3><a href="https://www.straitstimes.com/sport/basketball/basketball-chinas-cctv-to-continue-to-shun-nba-games-says-state-media" target="_blank" class="blog-link">China's CCTV to continue to shun NBA games, says state media</a></h3>
-                    <div class="basketball-img">
-                        <img src="./images/basketball/basketball_blog_3.jpg" alt="Zion Williamson" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> <b>BEIJING (REUTERS) -</b> China Central Television (CCTV) will continue to not show National Basketball Association (NBA) games in the country, state media outlet Global Times has said, citing a statement from the state broadcaster.
+            <li id="blog-content-basketball-3">
+                <div class="blog-text">
+                    <h3><a href="https://www.reuters.com/article/us-china-basketball-nba-cctv/chinas-cctv-to-continue-to-shun-nba-games-state-media-idUSKBN22O32H">China's CCTV to continue to shun NBA games: state media</a></h3>
+                    <p> <b>BEIJING (REUTERS) -</b> China Central Television (CCTV) will continue to not show National Basketball Association (NBA) games in the country, state media outlet Global Times has said, citing a statement from the state broadcaster.
                         <br>
                         CCTV, which holds exclusive TV rights for the NBA, has not aired any of the popular league's games since a Houston Rockets executive tweeted support for Hong Kong protesters last year."China Central Television refutes rumours that it would restore streaming NBA games, reiterating its consistent stance on national sovereignty," the Global Times said on Twitter.
                         <br>
@@ -110,25 +122,19 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="blog-content" style="padding-top: 5%;">
+            <li id="blog-content-basketball-4">
+                <div class="blog-text">
                     <h3><a href="https://www.independent.co.uk/news/obituaries/kobe-bryant-death-age-cause-helicopter-crash-daughter-gianna-basketball-los-angeles-lakers-a9304426.html" target="_blank" class="blog-link">Kobe Bryant: basketball superstar and tireless competitor who became a global sports legend</a></h3>
-                    <div class="basketball-img">
-                        <img src="./images/basketball/basketball_blog_4.jpg" alt="Kobe Bryant" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> Kobe Bryant  was a five-time National Basketball Association champion who retired in 2016 before adding an Academy award to his considerable trophy case two years later. In sports and in life, Bryant, who has been killed in a helicopter crash the age of 41, was an individual whose tirelessness and competitive drive were as notable as his versatility and ambition.
+                    <p> Kobe Bryant  was a five-time National Basketball Association champion who retired in 2016 before adding an Academy award to his considerable trophy case two years later. In sports and in life, Bryant, who has been killed in a helicopter crash the age of 41, was an individual whose tirelessness and competitive drive were as notable as his versatility and ambition.
                         <br>
                         Bryant was one of the smoothest and most dangerous shooters in a league previously dominated by Jordan, Earvin “Magic” Johnson and Larry Bird. When those players retired or their talents faded, Bryant took up their mantle. The 6ft 6in shooting guard was named to the NBA‘s all-star team in 18 of his 20 seasons, all with the Lakers, and he twice led the league in scoring. He scored 81 points during a game in 2006, the second-highest total in a game in league history.
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="blog-content" style="padding-top: 5%;">
+            <li id="blog-content-basketball-5">
+                <div class="blog-text">
                     <h3><a href="https://www.independent.co.uk/sport/us-sport/nba-coronavirus-donations-employees-suspension-salaries-zion-williamson-blake-griffin-a9402231.html" target="_blank" class="blog-link">Coronavirus: NBA players pledge thousands of dollars to cover salaries of employees out of work due to season suspension</a></h3>
-                    <div class="basketball-img">
-                        <img src="./images/basketball/basketball_blog_5.jpg" alt="Zion Williamson" width="25%" Align="left">
-                    </div>
-                    <p style="padding-left: 30%;"> NBAplayers are pledging to pay the salaries of employees working at sports stadiums after the basketball league announced it would be suspending the season for at least 30 days amid the coronavirus outbreak.
+                    <p> NBAplayers are pledging to pay the salaries of employees working at sports stadiums after the basketball league announced it would be suspending the season for at least 30 days amid the coronavirus outbreak.
                         <br>
                         On Friday, New Orleans Pelicans forward Zion Williamson became the latest NBA star to announce he would be donating thousands of dollars to cover the hourly wages of employees.
                         <br>
@@ -167,7 +173,14 @@
                 <input type="submit" id="sub-submit" name="sub-submit" value="Subscribe">
             </form>
         </div>
-    </footer>   
+    </footer>
+
+    <hr style="margin: 50px;">
+
+    <div id="logo-end">
+        Sports Paradice
+    </div>
+
 
 
 </body>
